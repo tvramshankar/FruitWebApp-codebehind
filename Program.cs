@@ -13,7 +13,7 @@ builder.Services.AddRazorPages();
 // Begin HTTP client code
  builder.Services.AddHttpClient("FruitAPI", httpClient =>
  {
-     httpClient.BaseAddress = new Uri("fruitapi-minimalapi.azurewebsites.net/fruitlist/");
+     httpClient.BaseAddress = new Uri("https://fruitapi-minimalapi.azurewebsites.net/fruitlist/");
  });
 // End of HTTP client code
 
